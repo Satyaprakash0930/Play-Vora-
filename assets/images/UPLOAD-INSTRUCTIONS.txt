@@ -1,0 +1,15 @@
+KINZORA ACADEMY — GitHub Pages image assets
+
+Upload the contents of this ZIP into the ROOT of your existing repository (merge folders; do not create a nested KINZORA_GITHUB_ASSETS folder).
+
+The files must end up at:
+assets/images/kinzora-logo.png
+assets/images/kinzora-social-preview.jpg
+assets/images/kinzora-shooting-practice.jpg
+assets/images/kinzora-team-training.jpg
+assets/images/kinzora-equipment.jpg
+assets/images/kinzora-awards.jpg
+assets/images/kinzora-team-building.jpg
+assets/images/kinzora-range-session.jpg
+
+After upload, GitHub Pages will rebuild automatically.
