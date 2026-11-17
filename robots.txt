@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# PLACEHOLDER: replace domain before launch
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://satyaprakash0930.github.io/Play-Vora-/sitemap.xml
