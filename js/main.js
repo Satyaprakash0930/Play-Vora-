@@ -1,4 +1,4 @@
-/* PLAYVORA ACADEMY - vanilla JS. No dependencies, no network calls. */
+/* KINZORA ACADEMY - vanilla JS. No dependencies, no network calls. */
 (function () {
   'use strict';
   var WA_NUMBER = '917039715727'; // +91 7039715727 (from official brochure)
@@ -127,7 +127,7 @@
       }
 
       // Build a readable WhatsApp message from visible labels and values
-      var lines = ['*Playvora Academy - ' + form.getAttribute('data-title') + '*', ''];
+      var lines = ['*Kinzora Academy - ' + form.getAttribute('data-title') + '*', ''];
       fields.forEach(function (f) {
         var v = clean(f.value);
         if (v) lines.push((f.getAttribute('data-label') || f.name) + ': ' + v);
@@ -136,7 +136,7 @@
         var picked = Array.prototype.map.call(g.querySelectorAll('input:checked'), function (c) { return c.value; });
         lines.push(g.getAttribute('data-label') + ': ' + picked.join(', '));
       });
-      lines.push('', 'Sent from the Playvora Academy website enquiry form.');
+      lines.push('', 'Sent from the Kinzora Academy website enquiry form.');
       var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
       var w = window.open(url, '_blank', 'noopener,noreferrer');
       if (status) {
